@@ -1,0 +1,22 @@
+.category-header {
+    width: 100%;
+    height: 320px;
+    background-color: var(--primary-color);
+}
+
+.category-text {
+    margin-left: 20px;
+}
+
+.category-text h3 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.category-text p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}

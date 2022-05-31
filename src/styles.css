@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* declaring CSS variables for styles that will be used across the app */
+
+:root {
+    --primary-color: #001D6E;
+    --secondary-color: #C4DDFF;
+    --body-text-color: #68A7AD;
+    --navbar-footer-color: #F9F9F9;
+    --danger: #DD3545;
+    --warning: #FDC507;
+    --success: #28A745;
+    --info: #17A2B8;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: var( --body-text-color);
+}

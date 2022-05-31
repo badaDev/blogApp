@@ -1,0 +1,72 @@
+.post-card {
+    width: 320px;
+    height: 453px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.post-card_img {
+    width: 320px;
+    height: 224px;
+}
+
+.labels-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.label {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.label h4 {
+    font-size: 10px;
+    font-weight: 600;
+    width: 100px;
+    height: 13px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.category-label {
+    color: var(--danger);
+}
+
+.featured-label {
+    color: var(--success);
+}
+
+.views-label {
+    color: var(--info);
+}
+
+.post-title {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--primary-color);
+}
+
+.post-content {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: var(--body-text-color);
+    padding: 0 5px;
+}
+
+.timestamp {
+    width: 128px;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #f9f9f9;
+}
+.timestamp-label {
+    font-size: 10px;
+    color: var(--warning);
+    text-transform: capitalize;
+}
+
