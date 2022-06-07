@@ -8,9 +8,6 @@ const routes: Routes = [
   { path: 'single-category', loadChildren: () => 
   import('./modules/single-category/single-category.module').then(m => m.SingleCategoryModule) },
   
-  { path: 'single-post', loadChildren: () => 
-  import('./modules/single-post/single-post.module').then(m => m.SinglePostModule) },
-  
   { path: 'about', loadChildren: () => 
   import('./modules/about/about.module').then(m => m.AboutModule) },
   
@@ -19,6 +16,9 @@ const routes: Routes = [
   
   { path: 'contact', loadChildren: () => 
   import('./modules/contact/contact.module').then(m => m.ContactModule) },
+
+  { path: 'modules/single-category/single-post', loadChildren: () => 
+  import('./modules/single-category/single-post/single-post.module').then(m => m.SinglePostModule) },
 ];
 
 @NgModule({
