@@ -21,11 +21,16 @@
     height: 643px;
     background-color: var(--secondary-color);
     margin: 0px auto;
-    padding: 20px 10px;
+    padding: 30px 10px;
 }
 
 .about-para {
     font-size: 20px;
     font-family: var(--font);
     color: var(--body-text-color);
+}
+
+.back-to_home {
+    margin: 50px auto 0px;
+    text-align: center;
 }

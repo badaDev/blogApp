@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PostCardComponent } from 'src/app/components/shared/post-card/post-card.component';
 import { MorePostsButtonComponent } from 'src/app/components/shared/more-posts-button/more-posts-button.component';
 import { NewsletterComponent } from 'src/app/components/shared/newsletter/newsletter.component';
+import { BackToHomeComponent } from 'src/app/components/shared/back-to-home/back-to-home.component';
 
 
 
@@ -11,6 +12,7 @@ import { NewsletterComponent } from 'src/app/components/shared/newsletter/newsle
     PostCardComponent,
     MorePostsButtonComponent,
     NewsletterComponent,
+    BackToHomeComponent
   ],
 
   imports: [
@@ -20,7 +22,8 @@ import { NewsletterComponent } from 'src/app/components/shared/newsletter/newsle
   exports: [
     PostCardComponent,
     MorePostsButtonComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    BackToHomeComponent
   ]
 })
 export class SharedModuleModule { }

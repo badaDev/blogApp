@@ -12,4 +12,9 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClick () {
+    console.log('clikced');
+    
+  }
+
 }
