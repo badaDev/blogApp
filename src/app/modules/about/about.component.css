@@ -1,0 +1,31 @@
+.about {
+    width: 1240px;
+    height: 881px;
+    margin: 80px auto;
+    background-color: var(--primary-color);
+}
+
+.about-heading {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--font);
+    padding: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.about-para_div {
+    width: 1120px;
+    height: 643px;
+    background-color: var(--secondary-color);
+    margin: 0px auto;
+    padding: 20px 10px;
+}
+
+.about-para {
+    font-size: 20px;
+    font-family: var(--font);
+    color: var(--body-text-color);
+}
